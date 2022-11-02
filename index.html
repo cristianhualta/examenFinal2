@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ch Tech - Cotiza tu pc gamer</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Navegation-->
+    <nav class="nav">
+      <div class="nav__center container">
+        <div class="nav__logo">
+					<img class="" src="img/logo.png" width="100%" height="50px">
+				</div>
+				<ul class="nav__list">
+					<div class="carrito__icon">
+						<i class="bx bx-cart"></i>
+						<span class="item__total">0</span>
+					</div>
+				</ul>
+      </div>
+    </nav>
+
+    <!--Filter-->
+    <section class="filter">
+      <div class="grid">
+        <div class="div">
+          <label for="buscar"><span><i class="bx bx-search"></i></span></label>
+          <input type="text" id="buscar" placeholder="Buscar...">
+        </div>
+        <div class="category">
+          <select id="category" onclick="categoryValue()">
+            <option value="">Todos</option>
+            <option value="computadoras">Computadoras</option>
+            <option value="laptops">Laptops</option>
+            <option value="impresoras">Impresoras</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!--Productos-->
+    <section class="productos">
+      <div class="productos__center">
+        <!-- <div class="producto">
+          <div class="image__container">
+            <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="">
+          </div>
+          <div class="producto__footer">
+            <h1>Rejoles Originales</h1>
+            <div class="rating">
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bx-star"></i>
+              </span>
+            </div>
+            <div class="price">$102.00</div>
+          </div>
+          <div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Añadir carrito</a>
+              <a href="producto-detalles.html" class="btn view">Vista</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!--Carrito-->
+    
+    <section class="carrito__overlay">
+      <div class="carrito">
+        <span class="close__carrito">
+          <i class="bx bx-x"></i>
+        </span>
+        <h1>Su Carrito</h1>
+
+        <div class="carrito__center">
+
+          <!-- <div class="carrito__item">
+
+            <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="reloj">
+            <div>
+              <h3>Relojes Originales </h3>
+              <p class="price">$122</p>
+            </div>
+            <div>
+              <span>
+                <i class="bx bxs-up-arrow"></i>
+              </span>
+              <p>1</p>
+              <span>
+                <i class="bx bxs-down-arrow"></i>
+              </span>
+            </div>
+            <div>
+              <span class="remove__item">
+                <i class="bx bx-trash"></i>
+              </span>
+            </div>
+
+            
+          </div> -->
+        </div>
+
+        <div class="carrito__footer">
+            <h3>Total: Bs <span class="carrito__total">0</span></h3>
+            <button onclick="mostrar()" class="clear__carrito btn">Confirmar Venta</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script type="text/javascript">
+      function mostrar(){
+        swal('¡Compra Exitosa!', 'Gracias por tu compra', 'success');
+      }
+    </script>
+  </body>
+</html>

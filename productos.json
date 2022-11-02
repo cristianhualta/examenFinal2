@@ -1,0 +1,83 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Ryzen 5 5600g",
+            "price": 2890,
+            "image": "https://i.linio.com/p/c48d2c930fe734b3646564c823626cfc-product.jpg",
+            "category": "Computadoras"
+        },
+        {
+            "id": 2,
+            "title": "Intel i5 12400F",
+            "price": 3504,
+            "image": "https://m.media-amazon.com/images/I/81QPAjJmN2L._AC_SS450_.jpg",
+            "category": "computadoras"
+        },
+        {
+            "id": 3,
+            "title": "Acer Nitro 5 RTX 3050",
+            "price": 5300,
+            "image": "https://www.officedepot.com.mx/medias/100097591.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NjgyMDkxfGltYWdlL2pwZWd8aGViL2gxNy8xMTIwMDg0MDk1Nzk4Mi8xMDAwOTc1OTEuanBnXzEyMDBmdHd8OGY0ZTIyNDUzMGFlYjk0OGM4YWMyODIwNjYwMjI3ZjhhYzUzODFiNmIxNzRmZmE4ZWM2OGEyNzQxODk5M2E1MQ",
+            "category": "laptops"
+        },
+        {
+            "id": 4,
+            "title": "DELL Inspiron Ryzen 5 ",
+            "price": 3490,
+            "image": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/3pp/asr/18205176-5faa-4bbb-8f66-1de819d3bd49.73cbb84cda8c55e1ae066d9c861ef866.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
+            "category": "laptops"
+        },
+        {
+            "id": 5,
+            "title": "HP Pavilion Gaming 15",
+            "price": 3900,
+            "image": "https://laptopmedia.com/wp-content/uploads/2022/02/61eVaiT3TSL._AC_SL1000_.jpg",
+            "category": "laptops"
+
+        },
+        {
+            "id": 6,
+            "title": "Epson EcoTank L8180",
+            "price": 1700,
+            "image": "https://mediaserver.goepson.com/ImConvServlet/imconv/73461fb77d7f424f37899fa294f5df16b5613880/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=foto-ecotank-L8180-1-690x480",
+            "category": "impresoras"
+
+        },
+        {
+            "id": 7,
+            "title": "Hp Smart Tank 670",
+            "price": 2450,
+            "image": "https://static.kemikcdn.com/2016/12/canon_e402_zps13mchfda.jpg",
+            "category": "impresoras"
+        },
+        {
+            "id": 8,
+            "title": "HP SMART TANK 750",
+            "price": 2110,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDdtcPlzeW18sv9P4dkLIJkAbiSZ1htWw2leR31l-_0iJb-VOko8aXk3GPCAifPlidac&usqp=CAU",
+            "category": "impresoras"
+        },
+        {
+            "id": 9,
+            "title": "Intel Core I7 10700F",
+            "price": 6890,
+            "image": "https://s3-sa-east-1.amazonaws.com/saasargentina/QQTAhow9Sg4aR72R36qA/imagen",
+            "category": "computadoras"
+        },
+        {
+            "id": 10,
+            "title": "Lenovo Legion 5 15ITH6H",
+            "price": 8390,
+            "image": "https://anphat.com.vn/media/product/40957_laptop_lenovo_legion_5_15ith6h_82jh002vvn__1_.jpg",
+            "category": "laptops"
+        },
+        {
+            "id": 11,
+            "title": "Intel Core i9-10900K",
+            "price": 12650,
+            "image": "https://scontent.flpb2-2.fna.fbcdn.net/v/t1.6435-9/189066404_4374149249275377_1919900834489868038_n.png?stp=dst-png_p526x296&_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=A-ZYv6jRebcAX_renRu&_nc_ht=scontent.flpb2-2.fna&oh=00_AfDPUepys962uw6FaXwjecP8rL4HNl9OP9AvnjLZocqlRA&oe=638A4AE2",
+            "category": "computadoras"
+        }
+    ]
+}
